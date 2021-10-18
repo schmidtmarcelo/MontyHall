@@ -2,7 +2,7 @@ import { useState } from "react";
 import Porta from "../components/Porta";
 import { atualizarPortas, criarPortas } from "../functions/portas";
 import PortaModel from "../model/porta";
-import Jogo from "./jogo";
+import Jogo from "./jogo/[portas]/[temPresente]";
 
 export default function Home() {
   return (
